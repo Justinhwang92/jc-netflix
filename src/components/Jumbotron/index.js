@@ -9,10 +9,10 @@ import {
   Image,
 } from "./Jumbotron.styles";
 
-const Jumbotron = ({ children, direction = "row", ...restProps }) => {
+export const Jumbotron = ({ children, direction = "row", ...restProps }) => {
   return (
-    <Item direction={direction}>
-      <Inner>{children}</Inner>
+    <Item {...restProps}>
+      <Inner direction={direction}>{children}</Inner>
     </Item>
   );
 };
@@ -36,5 +36,3 @@ Jumbotron.SubTitle = function JumbotronSubTitle({ children, ...restProps }) {
 Jumbotron.Image = function JumbotronImage({ ...restProps }) {
   return <Image {...restProps} />;
 };
-
-export default Jumbotron;
