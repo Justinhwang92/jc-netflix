@@ -7,7 +7,7 @@ import {
   Title,
   Text,
   Break,
-} from "./Footer.styles";
+} from "./Footer.Styles";
 
 export const Footer = ({ children, ...restProps }) => {
   return <Container {...restProps}>{children}</Container>;
