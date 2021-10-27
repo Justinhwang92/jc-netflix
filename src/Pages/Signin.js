@@ -7,7 +7,7 @@ import { FooterContainer } from "../Containers/Footer";
 import { HeaderContainer } from "../Containers/Header";
 // Components
 import { Form } from "../components/Form";
-// Routes and
+// Routes
 import * as ROUTES from "../Constants/routes";
 
 const Signin = () => {
@@ -73,7 +73,6 @@ const Signin = () => {
           </Form.TextSmall>
         </Form>
       </HeaderContainer>
-      ;
       <FooterContainer />
     </>
   );
