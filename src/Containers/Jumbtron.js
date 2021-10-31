@@ -1,5 +1,7 @@
 import React from "react";
+// Dataset
 import JumboData from "../fixtures/jumbo.json";
+// Components
 import { Jumbotron } from "../components/Jumbotron";
 
 export const JumbotronContainer = () => {

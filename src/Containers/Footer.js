@@ -1,4 +1,5 @@
 import React from "react";
+// Components
 import { Footer } from "../components/Footer";
 
 export const FooterContainer = () => {
