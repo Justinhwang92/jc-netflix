@@ -19,7 +19,7 @@ const Signup = () => {
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
 
-  const isInvalid = firstName === "" || password === "" || emailAddress == "";
+  const isInvalid = firstName === "" || password === "" || emailAddress === "";
 
   const handleSignup = (event) => {
     event.preventDefault();
@@ -39,6 +39,7 @@ const Signup = () => {
           })
       )
       .catch((error) => {
+        // Clear out user input
         setFirstName("");
         setEmailAddress("");
         setPassword("");
