@@ -15,7 +15,6 @@ const Browse = () => {
   const slides = selectionFilter({ series, films });
 
   // pass it to the brows container
-
   return <BrowseContainer slides={slides} />;
 };
 
