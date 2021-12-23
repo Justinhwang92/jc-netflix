@@ -1,7 +1,6 @@
 import React from "react";
 // Components
-import { Accordion } from "../components/Accordion";
-import { OptForm } from "../components/Opt-form";
+import { Accordion, OptForm } from "../components";
 // Data set
 import faqsData from "../fixtures/faqs.json";
 

@@ -6,7 +6,7 @@ import { FirebaseContext } from "../Context/Firebase";
 import { FooterContainer } from "../Containers/Footer";
 import { HeaderContainer } from "../Containers/Header";
 // Components
-import { Form } from "../components/Form";
+import { Form } from "../components";
 // Routes
 import * as ROUTES from "../Constants/routes";
 

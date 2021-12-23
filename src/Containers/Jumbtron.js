@@ -2,7 +2,7 @@ import React from "react";
 // Dataset
 import JumboData from "../fixtures/jumbo.json";
 // Components
-import { Jumbotron } from "../components/Jumbotron";
+import { Jumbotron } from "../components";
 
 export const JumbotronContainer = () => {
   return (

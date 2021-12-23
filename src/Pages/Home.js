@@ -5,8 +5,7 @@ import { FooterContainer } from "../Containers/Footer";
 import { FaqsContainer } from "../Containers/Faqs";
 import { HeaderContainer } from "../Containers/Header";
 // Components
-import { OptForm } from "../components/Opt-form";
-import { Feature } from "../components/Feature";
+import { Feature, OptForm } from "../components";
 
 const Home = () => {
   return (

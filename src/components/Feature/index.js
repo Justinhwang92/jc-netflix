@@ -1,9 +1,9 @@
 import React from "react";
 import { Container, Title, SubTitle } from "./Feature.Styles";
 
-export const Feature = ({ children, ...restProps }) => {
+export default function Feature({ children, ...restProps }) {
   return <Container {...restProps}>{children}</Container>;
-};
+}
 
 Feature.Title = function FeatureTitle({ children, ...restProps }) {
   return <Title {...restProps}>{children}</Title>;

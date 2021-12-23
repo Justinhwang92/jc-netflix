@@ -1,6 +1,6 @@
 import React from "react";
 // Components
-import { Footer } from "../components/Footer";
+import { Footer } from "../components";
 
 export const FooterContainer = () => {
   return (

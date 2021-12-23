@@ -3,9 +3,9 @@ import { Link as ReactRouterLink } from "react-router-dom";
 // Styles
 import { Background, ButtonLink, Container, Logo } from "./Header.Styles";
 
-export const Header = ({ bg = true, children, ...restProps }) => {
+export default function Header({ bg = true, children, ...restProps }) {
   return bg ? <Background {...restProps}>{children}</Background> : children;
-};
+}
 
 Header.Frame = function HeaderFrame({ children, ...restProps }) {
   return <Container {...restProps}>{children}</Container>;

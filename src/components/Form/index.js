@@ -12,9 +12,9 @@ import {
   Submit,
 } from "./Form.Styles";
 
-export const Form = ({ children, ...restProps }) => {
+export default function Form({ children, ...restProps }) {
   return <Container {...restProps}>{children}</Container>;
-};
+}
 
 Form.Base = function FormBase({ children, ...restProps }) {
   return <Base {...restProps}>{children}</Base>;
