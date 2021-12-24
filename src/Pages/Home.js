@@ -7,7 +7,7 @@ import { HeaderContainer } from "../Containers/Header";
 // Components
 import { Feature, OptForm } from "../components";
 
-const Home = () => {
+export default function Home() {
   return (
     <>
       <HeaderContainer>
@@ -36,6 +36,4 @@ const Home = () => {
       <FooterContainer />
     </>
   );
-};
-
-export default Home;
+}

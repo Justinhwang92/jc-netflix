@@ -10,7 +10,7 @@ import { Form } from "../components";
 // Routes
 import * as ROUTES from "../Constants/routes";
 
-const Signup = () => {
+export default function Signup() {
   const history = useHistory();
   const { firebase } = useContext(FirebaseContext);
 
@@ -87,6 +87,4 @@ const Signup = () => {
       </HeaderContainer>
     </>
   );
-};
-
-export default Signup;
+}
