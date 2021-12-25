@@ -6,7 +6,7 @@ import * as ROUTES from "../Constants/routes";
 // Logo
 import Logo from "../logo.svg";
 
-export const HeaderContainer = ({ children }) => {
+export function HeaderContainer({ children }) {
   return (
     <Header>
       <Header.Frame>
@@ -16,4 +16,4 @@ export const HeaderContainer = ({ children }) => {
       {children}
     </Header>
   );
-};
+}

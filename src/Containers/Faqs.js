@@ -4,7 +4,7 @@ import { Accordion, OptForm } from "../components";
 // Data set
 import faqsData from "../fixtures/faqs.json";
 
-export const FaqsContainer = () => {
+export function FaqsContainer() {
   return (
     <Accordion>
       <Accordion.Title>Frequently Asked Questions</Accordion.Title>
@@ -27,4 +27,4 @@ export const FaqsContainer = () => {
       </OptForm>
     </Accordion>
   );
-};
+}

@@ -2,7 +2,7 @@ import React from "react";
 // Components
 import { Footer } from "../components";
 
-export const FooterContainer = () => {
+export function FooterContainer() {
   return (
     <Footer>
       <Footer.Title>Questions? Contact us</Footer.Title>
@@ -41,4 +41,4 @@ export const FooterContainer = () => {
       <Footer.Text>Justin Coding - Netflix Clone Coding</Footer.Text>
     </Footer>
   );
-};
+}
