@@ -1,5 +1,6 @@
 import React, { useState, useContext } from "react";
 import { SelectProfileContainer } from "./Profiles";
+// Context
 import { FirebaseContext } from "../Context/Firebase";
 
 export function BrowseContainer({ slides }) {
