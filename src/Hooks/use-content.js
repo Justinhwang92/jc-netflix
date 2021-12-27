@@ -1,4 +1,5 @@
 import { useState, useEffect, useContext } from "react";
+// Context
 import { FirebaseContext } from "../Context/Firebase";
 
 export default function useContent(target) {
