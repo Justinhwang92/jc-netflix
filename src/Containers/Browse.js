@@ -26,6 +26,7 @@ export function BrowseContainer({ slides }) {
     <>
       {loading ? <Loading src={user.photoURL} /> : <Loading.ReleaseBody />}
       <Header src="joker1" dontShowOnSmallViewPort>
+        {/* Top header bar */}
         <Header.Frame>
           <Header.Group>
             <Header.Logo to={ROUTES.HOME} src={logo} alt="Netflix" />
@@ -33,6 +34,7 @@ export function BrowseContainer({ slides }) {
             <Header.TextLink>Films</Header.TextLink>
           </Header.Group>
 
+          {/* Search */}
           <Header.Group>
             <Header.Search
               searchTerm={searchTerm}
@@ -40,15 +42,18 @@ export function BrowseContainer({ slides }) {
             />
           </Header.Group>
 
+          {/* Profile menu */}
           <Header.Group>
             <Header.Profile>
               <Header.Picture src={user.photoURL} />
+              {/* Dropdown */}
               <Header.Dropdown>
+                {/* User name */}
                 <Header.Group>
                   <Header.Picture src={user.photoURL} />
                   <Header.TextLink>{user.displayName}</Header.TextLink>
                 </Header.Group>
-
+                {/* Sign out */}
                 <Header.Group>
                   <Header.TextLink onClick={() => firebase.auth().signOut()}>
                     Sign out
@@ -59,6 +64,7 @@ export function BrowseContainer({ slides }) {
           </Header.Group>
         </Header.Frame>
 
+        {/* Feature */}
         <Header.Feature>
           <Header.FeatureCallOut>Watch Joker Now</Header.FeatureCallOut>
           <Header.Text>
@@ -68,6 +74,8 @@ export function BrowseContainer({ slides }) {
             he projects in a futile attempt to feel like he's part of the world
             around him.
           </Header.Text>
+          {/* Play button */}
+          <Header.PlayButton>Play</Header.PlayButton>
         </Header.Feature>
       </Header>
     </>
