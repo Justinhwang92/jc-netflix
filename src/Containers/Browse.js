@@ -3,14 +3,13 @@ import { SelectProfileContainer } from "./Profiles";
 // Context
 import { FirebaseContext } from "../Context/Firebase";
 // Components
-import { Header, Loading } from "../components";
+import { Header, Loading, Player, Card } from "../components";
 // Routes
 import * as ROUTES from "../Constants/routes";
 // Container
 import { FooterContainer } from "./Footer";
 // Logo
 import logo from "../logo.svg";
-import Card from "../components/Card";
 
 export function BrowseContainer({ slides }) {
   const [category, setCategory] = useState("series");
@@ -118,8 +117,12 @@ export function BrowseContainer({ slides }) {
                 </Card.Item>
               ))}
             </Card.Entities>
+            {/* Each card */}
             <Card.Feature category={category}>
-              <p>Hello</p>
+              <Player>
+                <Player.Button />
+                <Player.Video src="/videos/bunny.mp4" />
+              </Player>
             </Card.Feature>
           </Card>
         ))}

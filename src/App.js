@@ -10,7 +10,7 @@ import { IsUserRedirect, ProtectedRoute } from "./Helpers/Route";
 import { useAuthListener } from "./Hooks";
 
 export default function App() {
-  const user = useAuthListener();
+  const { user } = useAuthListener();
 
   return (
     <Router>
@@ -19,7 +19,6 @@ export default function App() {
           user={user}
           loggedInPath={ROUTES.BROWSE}
           path={ROUTES.SIGN_IN}
-          exact
         >
           <Signin />
         </IsUserRedirect>
@@ -27,18 +26,16 @@ export default function App() {
           user={user}
           loggedInPath={ROUTES.BROWSE}
           path={ROUTES.SIGN_UP}
-          exact
         >
           <Signup />
         </IsUserRedirect>
-        <ProtectedRoute user={user} path={ROUTES.BROWSE} exact>
+        <ProtectedRoute user={user} path={ROUTES.BROWSE}>
           <Browse />
         </ProtectedRoute>
         <IsUserRedirect
           user={user}
           loggedInPath={ROUTES.BROWSE}
           path={ROUTES.HOME}
-          exaxt
         >
           <Home />
         </IsUserRedirect>
