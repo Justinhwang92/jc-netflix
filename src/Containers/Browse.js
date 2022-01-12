@@ -6,6 +6,8 @@ import { FirebaseContext } from "../Context/Firebase";
 import { Header, Loading } from "../components";
 // Routes
 import * as ROUTES from "../Constants/routes";
+// Container
+import { FooterContainer } from "./Footer";
 // Logo
 import logo from "../logo.svg";
 import Card from "../components/Card";
@@ -122,6 +124,7 @@ export function BrowseContainer({ slides }) {
           </Card>
         ))}
       </Card.Group>
+      <FooterContainer />
     </>
   ) : (
     <SelectProfileContainer user={user} setProfile={setProfile} />
