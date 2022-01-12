@@ -54,16 +54,15 @@ export function BrowseContainer({ slides }) {
             </Header.TextLink>
           </Header.Group>
 
-          {/* Search */}
-          <Header.Group>
-            <Header.Search
-              searchTerm={searchTerm}
-              setSearchTerm={setSearchTerm}
-            />
-          </Header.Group>
-
           {/* Profile menu */}
           <Header.Group>
+            {/* Search */}
+            <Header.Group>
+              <Header.Search
+                searchTerm={searchTerm}
+                setSearchTerm={setSearchTerm}
+              />
+            </Header.Group>
             <Header.Profile>
               <Header.Picture src={user.photoURL} />
               {/* Dropdown */}
