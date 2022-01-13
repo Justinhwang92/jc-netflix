@@ -1,6 +1,6 @@
 import React from "react";
 import { render } from "react-dom";
-import App from "./app";
+import App from "./App";
 // Styles
 import { GlobalStyles } from "./GlobalStyles";
 import "normalize.css";
