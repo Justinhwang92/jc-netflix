@@ -8,7 +8,7 @@ import {
   Title,
   SubTitle,
   Image,
-} from "./Jumbotron.Styles";
+} from "./Jumbotron.Style";
 
 export default function Jumbotron({
   children,
