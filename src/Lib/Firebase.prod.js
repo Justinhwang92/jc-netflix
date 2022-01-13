@@ -15,7 +15,7 @@ const config = {
   measurementId: process.env.REACT_APP_FIREBASE_MEASUREMENT_ID,
 };
 
-const firebase = Firebase.initializeApp(firebaseConfig);
+const firebase = Firebase.initializeApp(config);
 
 // Seed the database
 // One time execution only
