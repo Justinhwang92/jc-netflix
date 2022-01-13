@@ -10,7 +10,7 @@ import {
   Link,
   Input,
   Submit,
-} from "./Form.Styles";
+} from "./Form.Style";
 
 export default function Form({ children, ...restProps }) {
   return <Container {...restProps}>{children}</Container>;

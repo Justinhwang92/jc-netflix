@@ -18,7 +18,7 @@ import {
   SearchInput,
   SearchIcon,
   PlayButton,
-} from "./Header.Styles";
+} from "./Header.Style";
 
 export default function Header({ bg = true, children, ...restProps }) {
   return bg ? <Background {...restProps}>{children}</Background> : children;

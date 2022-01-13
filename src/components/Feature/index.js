@@ -1,6 +1,6 @@
 import React from "react";
 // Styles
-import { Container, Title, SubTitle } from "./Feature.Styles";
+import { Container, Title, SubTitle } from "./Feature.Style";
 
 export default function Feature({ children, ...restProps }) {
   return <Container {...restProps}>{children}</Container>;

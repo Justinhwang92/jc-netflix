@@ -1,5 +1,5 @@
 import React from "react";
-import { Spinner, LockBody, ReleaseBody, Picture } from "./Loading.Styles";
+import { Spinner, LockBody, ReleaseBody, Picture } from "./Loading.Style";
 
 export default function Loading({ src, ...restProps }) {
   return (

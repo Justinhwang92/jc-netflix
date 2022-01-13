@@ -16,7 +16,7 @@ import {
   Entities,
   Item,
   Image,
-} from "./Card.Styles";
+} from "./Card.Style";
 
 export const FeatureContext = createContext();
 
