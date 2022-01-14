@@ -1,0 +1,146 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer /> renders the <Footer /> with populated data 1`] = `
+<div
+  class="FooterStyle__Container-sc-a76zru-0 knAucQ"
+>
+  <p
+    class="FooterStyle__Title-sc-a76zru-4 dTUVpJ"
+  >
+    Questions? Contact us
+  </p>
+  <div
+    class="FooterStyle__Break-sc-a76zru-6 eZEIKa"
+  />
+  <div
+    class="FooterStyle__Row-sc-a76zru-2 iIlfrP"
+  >
+    <div
+      class="FooterStyle__Column-sc-a76zru-1 kcRQso"
+    >
+      <a
+        class="FooterStyle__Link-sc-a76zru-3 drOdeI"
+        href="#"
+      >
+        FAQ
+      </a>
+      <a
+        class="FooterStyle__Link-sc-a76zru-3 drOdeI"
+        href="#"
+      >
+        Investor Reations
+      </a>
+      <a
+        class="FooterStyle__Link-sc-a76zru-3 drOdeI"
+        href="#"
+      >
+        Ways to Watch
+      </a>
+      <a
+        class="FooterStyle__Link-sc-a76zru-3 drOdeI"
+        href="#"
+      >
+        Coporate Information
+      </a>
+      <a
+        class="FooterStyle__Link-sc-a76zru-3 drOdeI"
+        href="#"
+      >
+        Netflix Originals
+      </a>
+    </div>
+    <div
+      class="FooterStyle__Column-sc-a76zru-1 kcRQso"
+    >
+      <a
+        class="FooterStyle__Link-sc-a76zru-3 drOdeI"
+        href="#"
+      >
+        Help Center
+      </a>
+      <a
+        class="FooterStyle__Link-sc-a76zru-3 drOdeI"
+        href="#"
+      >
+        Jobs
+      </a>
+      <a
+        class="FooterStyle__Link-sc-a76zru-3 drOdeI"
+        href="#"
+      >
+        Terms of Use
+      </a>
+      <a
+        class="FooterStyle__Link-sc-a76zru-3 drOdeI"
+        href="#"
+      >
+        Contact Us
+      </a>
+    </div>
+    <div
+      class="FooterStyle__Column-sc-a76zru-1 kcRQso"
+    >
+      <a
+        class="FooterStyle__Link-sc-a76zru-3 drOdeI"
+        href="#"
+      >
+        Account
+      </a>
+      <a
+        class="FooterStyle__Link-sc-a76zru-3 drOdeI"
+        href="#"
+      >
+        Reedem Gift Cards
+      </a>
+      <a
+        class="FooterStyle__Link-sc-a76zru-3 drOdeI"
+        href="#"
+      >
+        Privacy
+      </a>
+      <a
+        class="FooterStyle__Link-sc-a76zru-3 drOdeI"
+        href="#"
+      >
+        Speed Test
+      </a>
+    </div>
+    <div
+      class="FooterStyle__Column-sc-a76zru-1 kcRQso"
+    >
+      <a
+        class="FooterStyle__Link-sc-a76zru-3 drOdeI"
+        href="#"
+      >
+        Media Center
+      </a>
+      <a
+        class="FooterStyle__Link-sc-a76zru-3 drOdeI"
+        href="#"
+      >
+        Buy Gift Cards
+      </a>
+      <a
+        class="FooterStyle__Link-sc-a76zru-3 drOdeI"
+        href="#"
+      >
+        Cookie Preferences
+      </a>
+      <a
+        class="FooterStyle__Link-sc-a76zru-3 drOdeI"
+        href="#"
+      >
+        Legal Notices
+      </a>
+    </div>
+  </div>
+  <div
+    class="FooterStyle__Break-sc-a76zru-6 eZEIKa"
+  />
+  <p
+    class="FooterStyle__Text-sc-a76zru-5 iCCMJQ"
+  >
+    Justin Coding - Netflix Clone Coding
+  </p>
+</div>
+`;
