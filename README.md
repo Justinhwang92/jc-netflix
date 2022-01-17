@@ -28,6 +28,8 @@ Demo: [Link](https://jc-netflix.netlify.app)
   - Some pages using protected routes with auth listeners
 - React fuse
   - For live search
+- React testing library
+  - Test all the components, containers and pages
 
 ---
 
